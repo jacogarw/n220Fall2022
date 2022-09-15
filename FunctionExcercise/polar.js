@@ -7,9 +7,9 @@ function polarPoint(r) {
     return createVector(x,y);
 }
 
-function draw() {
+function draw(100,100) {
     translate(100,100);
-    let result=polarPoint();
+    let result=polarPoint;
     
     ellipse(result.x,result.y,10)
 }
