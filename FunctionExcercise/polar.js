@@ -8,8 +8,7 @@ function polarPoint(r) {
 }
 
 function draw() {
+    let res=polarPoint(mouseX,mouseY);
     translate(100,100);
-    let result=polarPoint();
-    
-    ellipse(result.x,result.y,10)
+    ellipse(res.x,res.y,10);
 }
