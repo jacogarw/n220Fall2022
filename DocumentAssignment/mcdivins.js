@@ -6,7 +6,7 @@ let clicks=0;
 
 
 function clk() {
-   mcDv.innerHTML="mc";
+   mcDv.innerHTML="mc"+mcDv.innerHTML;
    clicks++;
    if(clicks>2)mcDv.innerHTML="divdivdiv";
 }
