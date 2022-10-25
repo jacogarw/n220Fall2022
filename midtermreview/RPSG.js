@@ -14,9 +14,7 @@ else if (x=0) {
     if (CompDecision="Scissors") {
         innerscore+1;
     }
-    if (CompDecision="Rock")
-        innerscore=innerscore;
-    }
+}
 
 else if (x=1) {
     if (CompDecision="Rock") {
@@ -25,9 +23,7 @@ else if (x=1) {
     if (CompDecision="Scissors"){
         innerscore-1;
     }
-    if (CompDecision="Paper"){
-        innerscore=innerscore;
-    }
+    
 }
 else if (x=2) {
     if (CompDecision="Rock") {
@@ -36,17 +32,14 @@ else if (x=2) {
     if (CompDecision="Paper"){
         innerscore+1;
     }
-    if (CompDecision="Scissors") {
-        innerscore=innerscore;
-    }
 }
-else {
-    innerscore=innerscore
-}
-score=innerscore;
 
 document.getElementById("Score").innerHTML=innerscore;
+score=innerscore;
+
+
+
+
+
+
 }
-
-
-
