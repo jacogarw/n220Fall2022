@@ -1,5 +1,5 @@
-let name=prompt("What is your name?")
+let name=document.getElementById("Name")
 
 function hello() {
-    console.log("Hello " + name)
+    console.log("Hello " + name.value)
 }

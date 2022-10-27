@@ -2,14 +2,14 @@ let answer=Math.floor(Math.random() * 20) + 1;
 
 
 function guess() {
-    let guess=prompt("What number are you guessing?")
-    if (guess>answer) {
+    let guesscheck=document.getElementById("num").value
+    if (guesscheck>answer) {
         document.getElementById("guesstext").innerHTML="Your answer is too high. Try again."
     }
-    else if (guess<answer) {
+    else if (guesscheck<answer) {
         document.getElementById("guesstext").innerHTML="Your answer is too low. Try again."
     }
-    else if (guess==answer) {
+    else if (guesscheck==answer) {
         document.getElementById("guesstext").innerHTML="Congratulations! You Win! Randomizing the number again!"
         answer=Math.floor(Math.random() * 20) + 1;
     }
