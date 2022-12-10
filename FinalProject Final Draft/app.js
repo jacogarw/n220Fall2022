@@ -52,7 +52,7 @@ function select(event) {
     //Logic for O winning
     if (board[x][0].innerHTML=="O" && board[x+1][0].innerHTML=="O" && board[x+2][0].innerHTML=="O") {
         resultPlay.innerHTML="O wins!"}
-    else if (board[x][1].innerHTML=="O" && board[x+1][1].innerHTML=="X" && board[x+2][1].innerHTML=="O") {
+    else if (board[x][1].innerHTML=="O" && board[x+1][1].innerHTML=="O" && board[x+2][1].innerHTML=="O") {
         resultPlay.innerHTML="O wins!"}
     else if (board[x][2].innerHTML=="O" && board[x+1][2].innerHTML=="O" && board[x+2][2].innerHTML=="O") {
         resultPlay.innerHTML="O wins!"}
